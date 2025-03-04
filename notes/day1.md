@@ -149,7 +149,25 @@ In programming languages:
                             We may want to do this :
                                 - To be able to reuse that code
                                 - To make the code more readable and maintainable
-- Functional:               ???
+                                - When a language allows us to define functions... and to execute them afterwords... we say that that language is procedural.
+- Functional:               Functional programming is not PROCEDURAL PROGRAMMING.
+                            The ability to define and execute functions is called PROCEDURAL PROGRAMMING.
+                            Functional programming is a different thing... It is an evolution of procedural programming.
+                            We cannot have functional programming without procedural programming.
+                            The concept is extremely simple...
+                            When a programming language allows us to point a variable to a function, and to execute that function by using that variable, we say that that language supports functional programming.
+                            The point with functional programming is not what it is...
+                            The point is what we can achieve with it.
+                            And here is when our brains explode!!! Get ready!!!
+
+                            Once a programming language allows us to do that... then:
+                            - We can start creating functions... allowing other functions as arguments
+                            - We can start creating functions... returning other functions
+
+                            WHAT!!!???? 
+
+                            In functional programming functions are first-class citizens.
+
 - Object-oriented:          Every single programming language allows us to deal with data.
                             And every single programming language ships with a bunch of data types.
                             Some programming languages allow us to create our own data types, 
