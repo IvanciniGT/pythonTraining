@@ -122,3 +122,58 @@ In windows we can get that number by using the command "echo %ERRORLEVEL%" (comm
 >
 > .bat
 > .sh       SCRIPT
+
+
+
+One thing about python script is that they work in every OS.
+I just need to have python (a python interpreter: cython) installed in the OS.
+
+Once said that... we should try to avoid calling external programs from python 
+CASE WE ARE CREATING ANS SCRIPT THAT SHOULD RUN ON EVERY OS.
+
+Because it's hard to make sure that the program we are calling is installed in every OS.
+
+Instead of doing that... we should try to find a python module that does the same thing that the external program does.
+
+As I told you... we have thousands of modules in python.
+Python ships with a lot of modules.
+
+We usually install third-party modules by using the command "python -m pip install MODULE".
+
+Where those modules are located? in the "Python Package Index" (PyPI).
+
+
+
+----
+
+On day 1, you all said to me that you were here because you want to use python for Automation.
+That's great.
+
+# What's is DEV-->OPS?
+
+Devops is a culture... it is a philosophy.... it's a way of working... it's a movement....
+defending WHAT??? AUTOMATION
+
+Ey guys! Let's automate everything... from DEV to OPS.
+
+Time AGO, when developers where thinking about a software LIFE CYCLE, they were thinking about:
+- A SEQUENCE OF PROJECTS (ruled by a Waterfall methodology)
+
+
+AUTOMATION is just a process that implies:
+THE CREATION OF A MACHINE (or a program that can change the behavior of a machine) that can do a task that time ago was done by a human.
+
+In our case, to automate a task means: TO CREATE A PROGRAM THAT CAN DO A TASK THAT TIME AGO WAS DONE BY A HUMAN.
+
+I can do that with :
+- Ansible
+- Puppet
+- Terraform
+- Chef
+- BASH scripts
+- Powershell scripts
+- command line scripts
+- Python scripts <<<<<<<< THIS IS A GENERAL PURPOSE LANGUAGE
+                          I can do whatever I want with python.
+                          For sure... I have other tools right there that speak a higher level language than python.
+                           

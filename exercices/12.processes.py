@@ -2,7 +2,8 @@ import subprocess
 
 # curl https://google.es to check whether our server has internet connection or not
 
-command = ["echo","Welcome to the jungle"]
+command = ["bash","-c", "echo 'Welcome to the jungle'"]
+#command = ["powershell","-Command", "echo 'Welcome to the jungle'"]
 
 # The subprocess module allows us to spawn new processes, connect to their input/output/error pipes, and obtain their return codes.
 
@@ -12,7 +13,7 @@ try:
                                 capture_output=True,    # Capture the output of the command
                                 text=True,              # The output will be text
                                 timeout=10              # Case the command takes more than 10 seconds to run
-                        )                            # The run function will raise a TimeoutExpired exception
+                        )                               # The run function will raise a TimeoutExpired exception
 
     # The `result` variable allows me to :
     # - Know the return code of the command
