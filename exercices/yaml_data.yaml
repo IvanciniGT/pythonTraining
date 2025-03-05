@@ -1,0 +1,9 @@
+- age: 30
+  married: true
+  name: John
+- age: 25
+  married: false
+  name: Jane
+- age: 40
+  married: true
+  name: Jack

@@ -120,6 +120,7 @@ class Service:
                                              # It's better if you think at first in that "self" 
                                              # keyword as a dictionary associated to each object of that class
     def __init__(self, name, domain, port, protocol):
+        
         self.name       = name              # We are just storing the values in the object dictionary
         self.domain     = domain            # By the way, we are storing also the "status"
         self.port       = port
@@ -179,6 +180,10 @@ nginx_service    = Service("nginx", "localhost", 80, "tcp")
 apache_service   = Service("apache", "localhost", 8080, "tcp")
 postgres_service = Service("postgres", "localhost", 5432, "tcp")
 redis_service    = Service("redis", "localhost", 6379, "tcp")
+#
+# ping 
+# telnet
+# curl
 
 oracle_service.is_running()
 mysql_service.is_running()

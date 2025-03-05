@@ -1,0 +1,9 @@
+- age: 30
+  married: true
+  name: Ray
+- age: 25
+  married: false
+  name: William
+- age: 40
+  married: true
+  name: Shresthi
