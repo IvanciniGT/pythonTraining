@@ -11,8 +11,6 @@ def my_script():
     information : ScriptInformation = read_all_the_script_information()
     validate_my_script_information(information)
     inform_user_about_current_script_execution_information(information)
-
-
     result : ResultInformation = check_all_services(information)
     prepare_the_output(information, result)
 

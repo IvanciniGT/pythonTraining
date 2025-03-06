@@ -38,6 +38,7 @@ def validate_parallel_tasks(information : ScriptInformation):
     # and that it is greater than 0
     try:
         if(int(information.parallel_tasks) > 0):
+            information.parallel_tasks = int(information.parallel_tasks)
             return # break the function
     except ValueError:
         pass

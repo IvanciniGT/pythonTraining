@@ -26,6 +26,14 @@ Case any of them is not running, our script will finish with a different exit co
 THAT's IT !
 
  $ monitor services.yaml 5
+    delay = sys.argv[2]
+    #Validate that argument
+    if int(delay)<=0:
+        print("The delay must be a positive number")
+        sys.exit(1)
+    while True:
+        check_services()
+        time.sleep(delay)
 
 This one right here is almost the same as the previous one...
 The difference is that we will monitor the services in a loop.
