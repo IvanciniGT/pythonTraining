@@ -1,0 +1,11 @@
+- address:  google.es
+  port:     80
+  protocol: http
+
+- address:  facebook.com
+  port:     80
+  protocol: http
+
+- address:  twitter.com
+  port:     80
+  protocol: http

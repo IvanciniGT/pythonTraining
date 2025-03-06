@@ -96,7 +96,7 @@ An that's what we are going to do now.
     Standard Input   >     PROCESS         >   Standard Output
        Channel      |                     |    Channel   (1)
          (0)        +----------V----------+
-                        Error Channel  (2)
+                        Error Output Channel  (2)
 
 
 That thing (about communication channels) is valid for all OSs (windows included).
